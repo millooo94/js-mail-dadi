@@ -1,3 +1,14 @@
 body {
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+form {
+    flex-direction: column;
+    gap: 5rem;
+}
+
+button {
+    width: max-content;
+    align-self: center;
 }
