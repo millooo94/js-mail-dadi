@@ -12,13 +12,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <script src="js/script.js" defer></script>
 </head>
-<body>
-    <div class="container h-100">
-        <form class="h-100 d-flex justify-content-center align-items-center" action="" method="get">
-            <input class="user-mail col-4" type="text">
-            <button class="btn btn-primary">CHECK</button>
+<body class="d-flex justify-content-center align-items-center">
+    <div class="container">
+        <h1 class="text-center mb-5">EMAIL CHECKER</h1>
+        <form class="" action="" method="get">
+            <input class="user-mail d-block m-auto col-6" type="email">
+            <button class="button d-block m-auto mt-5">CHECK</button>
+            <div class="text-center text-white col-5" id="block"></div>
         </form>
-        <div id="block"></div>
+        
     </div>
 </body>
 </html>
