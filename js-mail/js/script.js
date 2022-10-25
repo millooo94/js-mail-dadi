@@ -31,11 +31,9 @@ for (let i = 0; i < eleListMail.length; i++) {
 
 if (mailChecked == true) {
     result.innerHTML = 'EMAIL MATCHED'
-    console.log('EMAIL CORRETTA')
     result.classList.add('positive')
 } else {
     result.innerHTML = 'EMAIL NOT FOUND'
-    console.log('EMAIL SBAGLIATA')
     result.classList.add('negative')
 }
 
