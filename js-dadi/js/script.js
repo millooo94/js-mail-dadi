@@ -4,8 +4,8 @@ const result = document.querySelector('.result');
 
 
 result.addEventListener("click", function game(){
-    const userNumber = Math.floor(Math.random() * 6)
-    const PcNumber = Math.floor(Math.random() * 6)
+    let userNumber = Math.floor(Math.random() * 6) +1
+    let PcNumber = Math.floor(Math.random() * 6) +1
     user.innerHTML = userNumber
     pc.innerHTML = PcNumber
 
