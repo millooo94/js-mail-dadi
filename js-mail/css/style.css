@@ -70,3 +70,7 @@ button:hover {
     background-color: green;
   }
 
+  .not-valid {
+    background-color: goldenrod;
+  }
+

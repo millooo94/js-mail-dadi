@@ -32,9 +32,31 @@ for (let i = 0; i < eleListMail.length; i++) {
 if (mailChecked == true) {
     result.innerHTML = 'EMAIL MATCHED'
     result.classList.add('positive')
+    result.removeAttribute('class')
+    result.classList.add('positive')
+    result.classList.add('text-center')
+    result.classList.add('text-white')
+    result.classList.add('col-2')
+
+
 } else {
     result.innerHTML = 'EMAIL NOT FOUND'
     result.classList.add('negative')
+    result.removeAttribute('class')
+    result.classList.add('negative')
+    result.classList.add('text-center')
+    result.classList.add('text-white')
+    result.classList.add('col-2')
+}
+
+if (eleUserMail.value == '') {
+    result.innerHTML = 'EMAIL NOT VALID'
+    result.classList.add('not-valid')
+    result.removeAttribute('class')
+    result.classList.add('not-valid')
+    result.classList.add('text-center')
+    result.classList.add('text-white')
+    result.classList.add('col-2')
 }
 
 
