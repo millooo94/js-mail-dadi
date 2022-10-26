@@ -24,17 +24,17 @@ body {
 }
 
 .positive {
-    background-color: rgb(55, 181, 55) !important;
+    background-color: green !important;
 }
 
 
 .negative {
-    background-color: rgb(161, 47, 47) !important;
+    background-color: red !important;
 }
 
 
 .draw {
-    background-color: rgb(243, 243, 109) !important;
+    background-color: gold !important;
 }
 
 
