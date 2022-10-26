@@ -7,9 +7,10 @@ body {
 
 .my_text {
     font-size: 3rem;
-    color: #5F758E;
+    text-shadow: 2px 2px black;
+    color: white;
     font-weight: 700;
-    text-shadow: 2px 2px white;
+    
 }
 
 .my_text1 {
@@ -45,7 +46,7 @@ body {
     gap: 2rem;
     justify-content: center;
     align-items: center;
-    background-color: #db162f;
+    background-color: #ff4000;
 
 }
 
@@ -55,7 +56,7 @@ body {
     gap: 2rem;
     justify-content: center;
     align-items: center;
-    background-color: #3b1f2b;
+    background-color: #201e1f;
 
 }
 
